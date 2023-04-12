@@ -1,11 +1,10 @@
-<?php
 
-$imposto = "";
-$resultado = "";
+<?php
+ $usuario = 1200;
+ $imposto = 10/100;
 $valor = "";
 
-$imposto == (10 / 100);
-$resultado == ($imposto * 1200);
-$valor == ($resultado + 1200);
+$resultado = ($imposto * $usuario);
+$valor = ($resultado + $usuario);
 
 echo "O valor total é ". $valor;
