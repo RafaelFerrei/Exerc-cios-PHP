@@ -1,19 +1,18 @@
 <?php
+$arr = array("1234", "abcd");
 
-$senha1 = 1234;
-$senha2 = "abcd";
-$senha3 = 4567;
-$resposta = $senha3;
+$senha = readline("Digite a senha:");
 
-if ($resposta == $senha1) {
-    echo "A primeira senha está certa";
+if($senha == $arr[0]){
+    echo "A senha um está certa";
+
 }
 
-elseif($resposta == $senha2) {
-    echo "A segunda senha está certa";
+elseif($senha == $arr[1]){
+    echo "A senha dois está certa";
 }
 
-else {
-   echo "A senha está errada, tenete novamente";
+else{
+    echo "A senha está errada coloque novamente.";
 }
 ?>
