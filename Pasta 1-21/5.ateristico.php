@@ -4,13 +4,13 @@
 //Por exemplo, se o usuário informar o número 4, o programa deve imprimir o seguinte padrão:
 
 $n = 5;
-
-for ( $linha = 1; $linha <= n; $linha++) {
-
-    for( $coluna = 1; $coluna <= n; $coluna++) {
-         console.log("*");
+$aux = "";
+for ($linha = 1; $linha <= $n; $linha++) {
+    for($coluna = 1; $coluna <= $n; $coluna++) {
+        if ($coluna == $linha) {
+           echo $aux += '*';
+        }
     }
-
-    console.log(" ");
+    echo $aux;
 }
 
