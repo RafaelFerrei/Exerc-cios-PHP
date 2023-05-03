@@ -16,6 +16,4 @@ elseif ($n1 < $n2){
     echo "O maior número é ". $n2;
 }
 
-else {
-    echo "Os números são iguais";
-}
+
