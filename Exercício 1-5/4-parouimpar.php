@@ -6,7 +6,7 @@
 //e solicitar novamente o nome de usuário e a senha.
 
 
-$valor = 3;
+$valor = readline("Digite um número: ");
 
 if($valor % 2 == 0) {
   echo "Numero Par";
