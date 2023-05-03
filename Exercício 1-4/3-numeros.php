@@ -5,8 +5,8 @@
 //número é maior. Caso contrário, o programa deve imprimir uma mensagem informando
 //que o segundo número é maior ou que ambos os números são iguais.
 
-$n1 = 5;
-$n2 = 10;
+$n1 = readline("Digite um valor: ");
+$n2 = readline("Digite um outro valor: ");
 
 if ($n1 > $n2) {
     echo "O número maior é ". $n1;
