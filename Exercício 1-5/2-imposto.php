@@ -4,7 +4,7 @@
 //e o percentual de imposto a ser aplicado. O programa deve calcular
 //o valor do imposto e imprimir o valor total do produto com imposto.
  
- $usuario = 1200;
+ $usuario = readline("Digite um valor: ");
  $imposto = 10/100;
 $valor = "";
 
