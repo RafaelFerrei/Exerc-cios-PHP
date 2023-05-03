@@ -7,8 +7,8 @@
 
 $nome = "admin";
 $senha = 1234;
-$rsnome = "admin";
-$rssenha = 1234;
+$rsnome = readline("Digite o seu nome: ");
+$rssenha = readline("Digite a senha: ");
 
 if ($rsnome == $nome && $rssenha == $senha) {
     echo "Você entrou no login";
